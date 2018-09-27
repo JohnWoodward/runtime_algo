@@ -1,13 +1,9 @@
-package com.company;
-
-
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.util.Random;
 
-public class Main {
-
+public class HW3 {
     //Returns an array a such that, for all j, a[j] equals the average of x[0], ..., x[j]. ∗/
     public static double[] prefixAverage1(double[] x) {
         int n = x.length;
@@ -176,4 +172,3 @@ public class Main {
 
     }
 }
-

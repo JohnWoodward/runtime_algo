@@ -1,0 +1,29 @@
+A = H
+B = I
+C = J
+D = K
+E = L
+F = M
+G = N
+H = O
+I = P
+J = Q
+K = R
+L = S
+M = T
+N = U
+O = V
+P = W
+Q = X
+R = Y
+S = Z
+T = A
+U = B
+V = C
+W = D
+X = E
+Y = F
+Z = G
+2
+"PATM'L MAX HUCXVM-HKBXM PTR MH UXVHFX PXTEMAR?"
+BGAXKOYRTGVX
