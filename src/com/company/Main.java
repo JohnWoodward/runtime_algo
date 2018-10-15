@@ -75,6 +75,7 @@ public class Main {
     public static int example5(int[] first, int[] second) { // assume equal-length arrays
         int n = first.length, count = 0;
         for (int i = 0; i < n; i++) { // loop from 0 to n-1
+            System.out.println("e5 current loop: " +i);
             int total = 0;
             for (int j = 0; j < n; j++) // loop from 0 to n-1
                 for (int k = 0; k <= j; k++) { // loop from 0 to j
@@ -107,14 +108,14 @@ public class Main {
                 int[] arrayOneExample = new int[powerOne];
                 int[] arrayTwoExample = new int[powerOne];
 
-                for (int j = 0; j < powerOne; j++) {
-                    arrayForPrefix[j] = (Math.random() * 10);
-                }
-
-                for (int j = 0; j < powerOne; j++) {
-                    arrayOneExample[j] = rand.nextInt(50) + 1;
-                    arrayTwoExample[j] = rand.nextInt(50) + 1;
-                }
+//                for (int j = 0; j < powerOne; j++) {
+//                    arrayForPrefix[j] = (Math.random() * 10);
+//                }
+//
+//                for (int j = 0; j < powerOne; j++) {
+//                    arrayOneExample[j] = rand.nextInt(50) + 1;
+//                    arrayTwoExample[j] = rand.nextInt(50) + 1;
+//                }
 
                 if (args[0].equals("p1")) {
                     startTime = System.nanoTime();
@@ -173,6 +174,9 @@ public class Main {
             System.out.println("File " + args[1] + "cannot be found.");
             System.exit(1);
         }
+
+        int tenToTen[] = new int[1000000];
+        example5(tenToTen, tenToTen);
 
     }
 }
